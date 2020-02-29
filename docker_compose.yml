@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  newsletter:
+    image: newsletter_service:latest
+    container_name: newsletter_service
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080

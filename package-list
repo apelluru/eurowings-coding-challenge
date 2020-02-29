@@ -1,0 +1,6 @@
+de.eurowings.newsletter
+de.eurowings.newsletter.controllers
+de.eurowings.newsletter.models
+de.eurowings.newsletter.repositories
+de.eurowings.newsletter.services
+de.eurowings.newsletter.services.impl
