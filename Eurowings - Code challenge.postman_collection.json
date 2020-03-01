@@ -1,0 +1,672 @@
+{
+	"info": {
+		"_postman_id": "e782eb53-5eb3-4779-af06-25dcd8f35861",
+		"name": "Eurowings - Code challenge",
+		"description": "Newsletter Subscription Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "subscribe users for demo",
+			"item": [
+				{
+					"name": "subscribe - User 1",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user1@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"21-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscribe - User 2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user2@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"22-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscribe - User 3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user3@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"23-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscribe - User 4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user4@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"24-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscribe - User 5",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user5@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"25-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscribe - User 6",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscriberData\": {\n        \"firstname\": \"User\",\n        \"lastname\": \"Pelluru\",\n        \"email\": \"user6@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    },\n    \"subScriptionDate\" : \"26-02-2020\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"newsletter",
+								"subscribe"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "subscribe",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscriberData\": {\n        \"email\": \"ashokmca07@gmail.com\"\n    },\n    \"newsletterData\": {\n        \"newsletterId\": 1001\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/subscribe",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unsubscribe",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscriberData\": {\n        \"email\": \"user3@gmail.com\"\n    },\n    \"newsletterData\": {\n    \t\"newsletterId\": 1001\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/unsubscribe",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"unsubscribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscription - status (Subscribed)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscriberData\": {\n        \"email\": \"user1@gmail.com\"\n    },\n    \"newsletterData\": {\n        \"newsletterId\": 1001\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/subscribe/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"subscribe",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscription - status (Not Unscribed)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscriberData\": {\n        \"email\": \"user3@gmail.com\"\n    },\n    \"newsletterData\": {\n        \"newsletterId\": 1002\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/subscribe/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"subscribe",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscription - status (Unscribed)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscriberData\": {\n        \"email\": \"user3@gmail.com\"\n    },\n    \"newsletterData\": {\n        \"newsletterId\": 1001\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/subscribe/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"subscribe",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (BeforeDate and SUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"SUBSCRIBED\",\n    \"subscriptionDateStart\": \"24-02-2020\",\n    \"condition\": \"BEFORE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "BeforeDate and \nsubscriptionStatus is SUBSCRIBED"
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (BeforeDate and UNSUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"UNSUBSCRIBED\",\n    \"subscriptionDateStart\": \"24-02-2020\",\n    \"condition\": \"BEFORE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "BeforeDate and SubscriptionStatus is UNSUBSCRIBED"
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (AfterDate and SUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"SUBSCRIBED\",\n    \"subscriptionDateStart\": \"24-02-2020\",\n    \"condition\": \"AFTER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "AfterDate and Subscription status is SUBSCRIBED"
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (AfterDate and UNSUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"UNSUBSCRIBED\",\n    \"subscriptionDateStart\": \"21-02-2020\",\n    \"condition\": \"AFTER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "AfterDate and subscription status is UNSUBSCRIBED"
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (Between and SUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"SUBSCRIBED\",\n    \"subscriptionDateStart\": \"22-02-2020\",\n    \"subscriptionDateEnd\": \"25-02-2020\",\n    \"condition\": \"BETWEEN\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "Between daterange and status is SUBSCRIBED"
+			},
+			"response": []
+		},
+		{
+			"name": "get subscribers (Between and UNSUBSCRIBED)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"newsletterId\": 1001,\n    \"subscriptionStatus\": \"UNSUBSCRIBED\",\n    \"subscriptionDateStart\": \"22-02-2020\",\n    \"subscriptionDateEnd\": \"25-02-2020\",\n    \"condition\": \"BETWEEN\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/rest/v1/newsletter/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1",
+						"newsletter",
+						"customers"
+					]
+				},
+				"description": "Between daterange and status is UNSUBSCRIBED"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
